@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
-mkdir 0-new_project
-cd 0-new_project
+project="0-new_project"
+mkdir "$project"
+cd "$project"
+
 dotnet new console
