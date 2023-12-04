@@ -3,4 +3,4 @@ project="0-new_project"
 mkdir "$project"
 cd "$project"
 
-dotnet new console
+dotnet new console --framework net2.1
