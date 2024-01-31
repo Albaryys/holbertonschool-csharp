@@ -1,13 +1,28 @@
 ﻿using System;
 
+/// <summary>
+/// Provides methods for performing 2D matrix operations.
+/// </summary>
 class MatrixMath
 {
+    /// <summary>
+    /// Rotates a 2D matrix by a specified angle.
+    /// </summary>
+    /// <param name="matrix">The 2D matrix to be rotated.</param>
+    /// <param name="angle">The angle of rotation in radians.</param>
+    /// <returns>A new 2D matrix representing the result of the rotation.</returns>
+    /// <remarks>
+    /// The input matrix must be square (number of rows equal to number of columns)
+    /// and must have a length of 4 (2x2 matrix) for proper 2D rotation.
+    /// If the input matrix does not meet these criteria, a new matrix with a single
+    /// element (-1) is returned to indicate an error.
+    /// </remarks>
     public static double[,] Rotate2D(double[,] matrix, double angle)
     {
         int rows = matrix.GetLength(0);
         int cols = matrix.GetLength(1);
 
-        // Vérifier si la matrice est carrée
+        // Check for the Matrix
         if (rows != cols)
         {
             return new double[,] { { -1 } };
