@@ -33,4 +33,3 @@ class MatrixMath
         return (a * d + c * b);
     }
 }
-
