@@ -1,14 +1,14 @@
 using System;
 
 /// <summary>
-/// A generic queue class.
+/// Represents a generic queue data structure.
 /// </summary>
-/// <typeparam name="T">Type is user-defined at instantiation.</typeparam>
+/// <typeparam name="T">The type of elements in the queue.</typeparam>
 class Queue<T> {
     /// <summary>
-    /// Gets the type of the instance.
+    /// Returns the type of elements in the queue.
     /// </summary>
-    /// <returns>Returns the instance type.</returns>
+    /// <returns>The type of elements in the queue.</returns>
     public Type CheckType() {
         return typeof(T);
     }
