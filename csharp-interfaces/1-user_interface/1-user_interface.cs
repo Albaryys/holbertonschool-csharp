@@ -89,4 +89,4 @@ public class TestObject : Base, IInteractive, IBreakable, ICollectable{
     public void Collect(){
         // Method implementation.
     }
-} 
+}

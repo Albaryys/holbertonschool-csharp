@@ -6,5 +6,4 @@
     <RootNamespace>_0_abstract_thinking</RootNamespace>
   	<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
 </PropertyGroup>
-
 </Project>
